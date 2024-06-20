@@ -7,7 +7,7 @@
 	<title>{data.slug} Page</title>
 	<meta name="description" content={`${data.slug} Description`} />
 	<link rel="icon" href="/favicon.ico" />
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+	<link rel="apple-touch-icon" href={`${data.slug}/apple-touch-icon.png`} sizes="180x180" />
 	<link rel="mask-icon" href="/mask-icon.svg" color="#FFFFFF" />
 	<meta name="theme-color" content="#ffffff" />
 	<link rel="manifest" href={`/manifest/${data.slug}`} />
