@@ -10,7 +10,7 @@
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 	<link rel="mask-icon" href="/mask-icon.svg" color="#FFFFFF" />
 	<meta name="theme-color" content="#ffffff" />
-	<link rel="manifest" href={`/manifest/${data.slug}.json`} />
+	<link rel="manifest" href={`/manifest/${data.slug}`} />
 </svelte:head>
 
 <h1>{data.slug}</h1>
