@@ -7,6 +7,22 @@
 
 <slot />
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<footer>
+	<a href="/">Home</a>
+	<a href="/manifest/app1">app1</a>
+	<a href="/manifest/app2">app2</a>
+	<a href="/manifest/app3">app3</a>
+</footer>
+
 <style>
 	nav {
 		display: flex;
