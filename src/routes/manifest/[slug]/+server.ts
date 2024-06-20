@@ -1,10 +1,10 @@
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
-export const GET: RequestHandler = async () => {
+export const GET: RequestHandler = async (event) => {
 	return json({
-		name: 'My Awesome App',
-		short_name: 'MyApp',
+		name: event.params.slug,
+		short_name: event.params.slug,
 		description: 'My Awesome App description',
 		theme_color: '#ffffff',
 		icons: [
