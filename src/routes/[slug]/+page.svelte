@@ -13,8 +13,6 @@
 		images: [
 			{
 				url: 'https://er-s3-prod.s3.fr-par.scw.cloud/pizzo_petr_sevcovic_fy_Qr1_T3_GE_34_unsplash_08bae03d46_27a0655902_a17d57bab8.jpg',
-				width: 2000,
-				height: 1333,
 				alt: 'Og Image Alt'
 			}
 		],
